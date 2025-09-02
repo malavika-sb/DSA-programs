@@ -1,4 +1,4 @@
----DSA Programs---
+#DSA Programs
 
 This repository contains C programs implemented for Data Structures and Algorithm
 # Sorting
@@ -9,4 +9,5 @@ This repository contains C programs implemented for Data Structures and Algorith
 - Binary Search
 
 # Other Programs
+
 - Sparse Polynomial Addition
