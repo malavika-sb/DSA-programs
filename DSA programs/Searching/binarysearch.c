@@ -1,6 +1,7 @@
 /*Binary Search*/
 #include<stdio.h>
 #include<stdlib.h>
+//search function
 int binary_search(int arr[], int n,int key){
   int mid, low=0, high=n-1;
 while(low<=high){
@@ -24,6 +25,7 @@ if (n <= 0) {
         printf("Invalid size!\n");
         return 0;
     }
+  //dynamic allocation
 int *arr=malloc(n*sizeof(int));
 if(!arr){
   printf("Allocation failed !!");
@@ -40,7 +42,7 @@ printf("\n");
 
 printf("Enter the element to search:");
 scanf("%d",&key);
-
+//calling function
 int index=binary_search(arr,n,key);
 
 if(index==-1)
@@ -50,4 +52,5 @@ else
 
 free(arr);
 return 0;
+
 }
